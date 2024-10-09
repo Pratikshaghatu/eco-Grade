@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Economic Competency Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>The Problem of Fees Concession in India Colleges and Universities. 
+          <br><BR>Economic Competency Application</h1>
+      <p style="font-size:30px">
+        in India fees are often determined based on caste categories which has adverse effects on social immunity integrity and economic competency our proposed solution tracks economic competency removing reliance on cast based reservations while maintaining social equity</p>
+        
+        
+        
+        
+      </p>
+    </header>
+
+    <!-- Registration Form -->
+    <section id="registration">
+        <h2  style="text-align:center; font-size:50px">User Registration</h2>
+        <form id="registrationForm">
+            <label for="name" style="font-size:30px">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="aadhar">Aadhar Number:</label>
+            <input type="text" id="aadhar" name="aadhar" required>
+
+            <label for="pan">PAN Number:</label>
+            <input type="text" id="pan" name="pan" required>
+
+            <label for="mobile">Mobile Number:</label>
+            <input type="text" id="mobile" name="mobile" required>
+
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+
+    <!-- Dashboard Section -->
+    <section id="dashboard">
+        <h2 style="text-align:center">Dashboard</h2>
+        <p  style="text-align:center">Track and update your economic information in real-time.</p>
+
+        <form id="economicDataForm">
+            <h3  style="text-align:center; font-size:50px">Enter Property and Income Information</h3>
+            
+            <label for="land">Land in Acres:</label>
+            <input type="number" id="land" name="land" required>
+
+            <label for="house">House Size (sq. ft.):</label>
+            <input type="number" id="house" name="house" required>
+
+            <label for="vehicles">Vehicles Owned:</label>
+            <input type="text" id="vehicles" name="vehicles" required>
+
+            <label for="jobIncome">Job Income (Annual):</label>
+            <input type="number" id="jobIncome" name="jobIncome" required>
+
+            <label for="savings">Savings:</label>
+            <input type="number" id="savings" name="savings" required>
+
+            <label for="debt">Debt:</label>
+            <input type="number" id="debt" name="debt">
+
+            <label for="investments">Investments:</label>
+            <input type="number" id="investments" name="investments">
+
+            <button type="submit">Submit</button>
+        </form>
+      
+        
+
+    <!-- E-Commerce Card for User Grade -->
+    <section id="userCard">
+        <h2  style="text-align:center">User Economic Competency Card</h2>
+        <div class="card">
+            <h3>User: <span id="userName">John Doe</span></h3>
+            <p>Aadhar: <span id="userAadhar">1234-5678-9012</span></p>
+            <p>PAN: <span id="userPan">ABCDE1234F</span></p>
+            <p>Mobile: <span id="userMobile">9876543210</span></p>
+            <p>Economic Competency Grade: <span id="userGrade">B</span></p>
+            <p>Total Score: <span id="userScore">75</span></p>
+        </div>
+    </section>
+  <h2 style="font-size:20px">
+    Important Note : registration of properties is mandatory without registration user will not be permitted to sell or purchase properties based on the registered information user will receive a score and corresponding Grade(A B C or D)
+    
+    
+    
+    
+  </h2>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Economic Competency Tracker. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
